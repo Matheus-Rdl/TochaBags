@@ -70,6 +70,36 @@ button:focus-visible {
 
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "AnkeCalligraphic";
+  src: url(./fonts/AnkeCalligraphicFG.woff2) format("woff2"),
+    url(./fonts/AnkeCalligraphicFG.woff) format("woff"),
+    url(./fonts/AnkeCalligraphic.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
+}
+
+:root {
+  --color-brown: #64201b;
+  --color-green: #076916;
+  --color-yellow: #ffca2c;
+  --color-orange: #fbab18;
+
+  --font-title: "AnkeCalligraphic", sans-serif;
+  --font-text: "Montserrat", sans-serif;
+}
+
+.font-title{
+  font-family: var(--font-title);
+}
+
+.font-text{
+  font-family: var(--font-text);
 }
