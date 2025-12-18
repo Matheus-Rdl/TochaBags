@@ -19,3 +19,23 @@
         border-b-[var(--color-green)]
         border-l-[var(--color-green)];
 }
+
+.bags-customizable {
+  @apply relative mx-auto w-1/2 p-5 leading-tight;
+}
+
+.bags-customizable::after {
+  content: "";
+  @apply absolute top-0 left-0 w-[40%] h-[60%]
+        border-t-[5px] border-l-[5px]
+        border-t-[var(--color-orange)]
+        border-l-[var(--color-orange)];
+}
+
+.bags-customizable::before {
+  content: "";
+  @apply absolute bottom-0 right-0 w-[30%] h-[70%]
+        border-b-[5px] border-r-[5px]
+        border-b-[var(--color-green)]
+        border-r-[var(--color-green)];
+}

@@ -85,12 +85,47 @@ export default function Production() {
             </div>
           </div>
 
-          <p className="mt-7 text-center italic underline">Algumas cores tem varios tons, podendo escolher várias tonalidades.</p>
+          <p className="mt-7 text-center italic underline">
+            Algumas cores tem varios tons, podendo escolher várias tonalidades.
+          </p>
         </div>
 
-        <div className="relative w-fit mx-auto rotate-2 mb-5">
-          <div className={productionSubTitleShadow}></div>
-          <h2 className={productionSubTitle}>Personalizáveis</h2>
+        <div>
+          <div className="relative w-fit mx-auto rotate-2 mb-5">
+            <div className={productionSubTitleShadow}></div>
+            <h2 className={productionSubTitle}>Personalizáveis</h2>
+          </div>
+
+          <div className="flex gap-5">
+            <div>
+              <img src="p1.png" />
+              <p className="text-center">Bordados</p>
+            </div>
+
+            <div>
+              <img src="p2.png" />
+              <p className="text-center">Padrôes ou desenhos</p>
+            </div>
+
+            <div>
+              <img src="p3.png" />
+              <p className="text-center">Rodinhas</p>
+            </div>
+
+            <div>
+              <img className="rounded-full" src="p4.png" />
+              <p className="text-center">Bags duplas ou triplas</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bags-customizable">
+          <p className="text-center">
+            Na TochaBags, tudo é personalizável, desde, o bordado, quanto a
+            cores e modelos. è possivel adicionar itens, cores e
+            padrôes/desenhos. Converse com nossa equipe e deixe a criatividade
+            correr solta!
+          </p>
         </div>
       </div>
     </section>
