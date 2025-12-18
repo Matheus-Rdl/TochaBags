@@ -1,4 +1,6 @@
-import Header from "../header/header";
+import NavBar from "../../components/navBar";
+import Apresentation from "../apresentation";
+import Header from "../header";
 
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
       <header>
         <Header/>
       </header>
+        <NavBar/>
+        <Apresentation/>
     </div>
   );
 }

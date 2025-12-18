@@ -84,6 +84,7 @@ button:focus-visible {
 
 body {
   margin: 0;
+  background-color: var(--white);
 }
 
 :root {
@@ -91,6 +92,8 @@ body {
   --color-green: #076916;
   --color-yellow: #ffca2c;
   --color-orange: #fbab18;
+  --white-nav: #f9f9f9;
+  --white: #f2f2f2;
 
   --font-title: "AnkeCalligraphic", sans-serif;
   --font-text: "Montserrat", sans-serif;
