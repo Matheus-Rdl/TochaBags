@@ -1,6 +1,6 @@
 export default function Work() {
   return (
-    <section>
+    <section className="section">
       <h1>Nosso trabalho</h1>
       <p className="text-center w-[70%] mx-[15%] mb-5">
         Sabemos que cada instrumento possui suas particularidades, assim como

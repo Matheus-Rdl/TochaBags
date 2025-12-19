@@ -1,6 +1,6 @@
 export default function Apresentation() {
   return (
-    <section>
+    <section className="section">
       <h1>A Tocha Bags</h1>
       <p className="text-center w-[50%] mx-[25%] font-text">
         Tocha Bags nasceu da paixão pela música e da necessidade de expressar

@@ -6,7 +6,7 @@ export default function Production() {
     "absolute inset-0 bg-black translate-x-[6px] translate-y-[6px] -z-1";
 
   return (
-    <section>
+    <section className="section">
       <h1>Nossa Produção</h1>
 
       <div className="flex flex-col gap-10">
