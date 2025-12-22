@@ -1,7 +1,22 @@
+import { useState } from "react";
 import CardBags from "../components/cardBags";
 import DragScroll from "../components/dragScroll";
+import bags from "../data/bags.json";
+import CardBagsDetailed from "../components/cardBagsDetailed";
 
 export default function Bags() {
+  const [selectedBag, setSelectedBag] = useState(null);
+
+  const handleSelectBag = (bag) => {
+    setSelectedBag(bag);
+  };
+
+  const handleCloseBag = () => {
+    setSelectedBag(null);
+  };
+
+  //console.log(bags);
+
   return (
     <section className="section-bags">
       <h1>Nossas Bags</h1>
@@ -20,15 +35,14 @@ export default function Bags() {
 
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
+              {bags.map((bag) => (
+                <CardBags
+                  key={bag.id}
+                  bag={bag}
+                  direction="right"
+                  onSelect={handleSelectBag}
+                />
+              ))}
             </DragScroll>
           </div>
         </div>
@@ -46,14 +60,6 @@ export default function Bags() {
 
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
               <CardBags direction="left" />
               <CardBags direction="left" />
             </DragScroll>
@@ -75,11 +81,6 @@ export default function Bags() {
             <DragScroll step={200}>
               <CardBags direction="left" />
               <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
-              <CardBags direction="left" />
             </DragScroll>
           </div>
         </div>
@@ -98,18 +99,16 @@ export default function Bags() {
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
               <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
-              <CardBags direction="right" />
             </DragScroll>
           </div>
         </div>
       </div>
+
+      <CardBagsDetailed
+        bag={selectedBag}
+        open={Boolean(selectedBag)}
+        onClose={() => setSelectedBag(null)}
+      />
     </section>
   );
 }

@@ -10,7 +10,7 @@ export default function Contacts() {
   //clip-path: polygon(0 24%, 19% 0, 89% 9%, 100% 54%, 86% 89%, 37% 100%, 4% 81%);
 
   const id = crypto.randomUUID();
-  console.log(id)
+  //console.log(id)
   
   return (
     <section className="section-contacts">
