@@ -118,7 +118,14 @@ p {
   margin-bottom: 1.5em;
 }
 
-.section h1{
+.section-contacts{
+  width: 90%;
+  margin-inline: 5%;
+  margin-top: 4em;
+  margin-bottom: 1.5em;
+}
+
+.section h1, .section-contacts h1{
   font-family: var(--font-title);
   text-align: center;
   font-size: 60px;
@@ -131,5 +138,25 @@ p {
   font-size: 60px;
   margin-bottom: 1em;
 }
+
+/*flex gap-0 overflow-x-auto overflow-y-hidden cursor-grab select-none*/
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  cursor: grab;
+  padding: 10px;
+  padding-inline: 40px;
+}
+
+.scroll-container:active {
+  cursor: grabbing;
+}
+
+/* opcional: esconder a scrollbar */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
 
 

@@ -3,6 +3,7 @@ import Apresentation from "../apresentation";
 import Bags from "../bags";
 import Bills from "../bills";
 import Contacts from "../contacts";
+import Footer from "../footer";
 import Header from "../header";
 import Production from "../production";
 import Work from "../work";
@@ -24,6 +25,10 @@ export default function Home() {
         <Bills/>
         <Contacts/>
       </main>
+
+      <footer>
+        <Footer/>
+      </footer>
       
     </div>
   );
