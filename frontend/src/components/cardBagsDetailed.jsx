@@ -12,7 +12,7 @@ export default function CardBagsDetailed({ bag, open, onClose }) {
   };
 
   return (
-    <Dialog open={open} onClose={onClose} maxWidth="md">
+    <Dialog open={open} onClose={onClose} maxWidth="md" className="">
       <div className="p-6 flex gap-4 overflow-hidden">
         <div className="flex flex-col items-center justify-center gap-5">
           <h2 className="text-center text-xl font-semibold">{bag?.name}</h2>

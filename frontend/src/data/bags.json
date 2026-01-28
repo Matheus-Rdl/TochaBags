@@ -10,7 +10,6 @@
     }
   },
   {
-<<<<<<< HEAD
     "id": "ff08cc45-3130-449d-a305-3c0519adb0c9",
     "name": "Cavaco Verde e Laranja",
     "description": "",
@@ -42,15 +41,11 @@
   },
   {
     "id": "e51b704b-823d-438e-ac28-441c565b8fb5",
-=======
-    "id": "58e19bf6-36ea-4113-8a02-50ebf63114a0",
->>>>>>> dbacda643c0e170b1fd0a448c7c5e8fb5ad8ff23
     "name": "Cavaco Azul",
     "description": "",
     "type": "cavacos",
     "images": {
       "main": "0.png",
-<<<<<<< HEAD
       "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
     }
   },
@@ -61,10 +56,7 @@
     "type": "cavacos",
     "images": {
       "main": "0.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"]
-=======
       "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png"]
->>>>>>> dbacda643c0e170b1fd0a448c7c5e8fb5ad8ff23
     }
   }
 
