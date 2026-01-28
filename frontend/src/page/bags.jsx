@@ -6,6 +6,7 @@ import CardBagsDetailed from "../components/cardBagsDetailed";
 
 export default function Bags() {
   const [selectedBag, setSelectedBag] = useState(null);
+  const cavacoBags = bags.filter((bag) => bag.type === "cavacos");
 
   const handleSelectBag = (bag) => {
     setSelectedBag(bag);
@@ -35,7 +36,7 @@ export default function Bags() {
 
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
-              {bags.map((bag) => (
+              {cavacoBags.map((bag) => (
                 <CardBags
                   key={bag.id}
                   bag={bag}
@@ -44,6 +45,7 @@ export default function Bags() {
                 />
               ))}
             </DragScroll>
+
           </div>
         </div>
 
@@ -60,8 +62,14 @@ export default function Bags() {
 
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
-              <CardBags direction="left" />
-              <CardBags direction="left" />
+              {bags.map((bag) => (
+                <CardBags
+                  key={bag.id}
+                  bag={bag}
+                  direction="left"
+                  onSelect={handleSelectBag}
+                />
+              ))}
             </DragScroll>
           </div>
         </div>
