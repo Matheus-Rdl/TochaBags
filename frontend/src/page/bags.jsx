@@ -53,15 +53,21 @@ export default function Bags() {
               className="w-[60%] [clip-path:polygon(10%_0,100%_0,100%_100%,0_100%)] ml-[40%]"
               src="strings-img.png"
             />
-            <div className="-z-1 bg-green-700 absolute top-25 right-[75%] w-[30%] h-[70%] [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]"></div>
-            <div className="-z-1 bg-green-600 absolute top-5 right-[60%] w-[30%] h-[65%] [clip-path:polygon(15%_0,100%_0,90%_100%,0_100%)]"></div>
-            <div className="-z-1 bg-green-500 absolute top-20 right-[52.5%] w-[20%] h-full [clip-path:polygon(20%_0,100%_0,90%_100%,0_100%)]"></div>
+            <div className="-z-1 bg-green-700 absolute top-15 right-[75%] w-[30%] h-[70%] [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]"></div>
+            <div className="-z-1 bg-green-600 absolute top-0 right-[60%] w-[30%] h-[65%] [clip-path:polygon(15%_0,100%_0,90%_100%,0_100%)]"></div>
+            <div className="-z-1 bg-green-500 absolute top-10 right-[52.5%] w-[20%] h-full [clip-path:polygon(20%_0,100%_0,90%_100%,0_100%)]"></div>
           </div>
 
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
-              <CardBags direction="left" />
-              <CardBags direction="left" />
+              {bags.map((bag) => (
+                <CardBags
+                  key={bag.id}
+                  bag={bag}
+                  direction="left"
+                  onSelect={handleSelectBag}
+                />
+              ))}
             </DragScroll>
           </div>
         </div>
@@ -72,15 +78,21 @@ export default function Bags() {
               className="w-[60%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)] mx-[20%]"
               src="percussion-img.png"
             />
-            <div className="-z-1 bg-green-700 absolute top-30 -right-20 w-[40%] h-[65%] [clip-path:polygon(0_0,90%_0,100%_100%,15%_100%)]"></div>
-            <div className="-z-1 bg-green-600 absolute -top-25 right-[5%] w-[30%] h-[70%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)]"></div>
+            <div className="-z-1 bg-green-700 absolute top-15 -right-20 w-[40%] h-[65%] [clip-path:polygon(0_0,90%_0,100%_100%,15%_100%)]"></div>
+            <div className="-z-1 bg-green-600 absolute -top-5 right-[5%] w-[30%] h-[70%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)]"></div>
             <div className="-z-1 bg-green-500 absolute top-5 right-[65%] w-[30%] h-[65%] [clip-path:polygon(15%_0,100%_0,90%_100%,0_100%)]"></div>
           </div>
 
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
-              <CardBags direction="left" />
-              <CardBags direction="left" />
+              {bags.map((bag) => (
+                <CardBags
+                  key={bag.id}
+                  bag={bag}
+                  direction="left"
+                  onSelect={handleSelectBag}
+                />
+              ))}
             </DragScroll>
           </div>
         </div>
@@ -91,14 +103,21 @@ export default function Bags() {
               className="w-[60%] [clip-path:polygon(0_0,100%_0,90%_100%,0_100%)]"
               src="strings-img.png"
             />
-            <div className="-z-1 bg-green-700 absolute top-25 left-[82.5%] w-[30%] h-[70%] [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]"></div>
-            <div className="-z-1 bg-green-600 absolute -top-10 left-[65%] w-[30%] h-[70%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)]"></div>
+            <div className="-z-1 bg-green-700 absolute top-10 left-[82.5%] w-[30%] h-[70%] [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]"></div>
+            <div className="-z-1 bg-green-600 absolute -top-5 left-[65%] w-[30%] h-[70%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)]"></div>
             <div className="-z-1 bg-green-500 absolute top-10 left-[50%] w-[30%] h-[80%] [clip-path:polygon(10%_0,100%_0,85%_100%,0_100%)]"></div>
           </div>
 
           <div className="w-full overflow-hidden my-2">
             <DragScroll step={200}>
-              <CardBags direction="right" />
+              {bags.map((bag) => (
+                <CardBags
+                  key={bag.id}
+                  bag={bag}
+                  direction="right"
+                  onSelect={handleSelectBag}
+                />
+              ))}
             </DragScroll>
           </div>
         </div>

@@ -1,12 +1,62 @@
 [
   {
     "id": "58e19bf6-36ea-4113-8a02-50ebf63114a9",
-    "name": "Cavaco amarelo",
+    "name": "Cavaco Amarelo",
     "description": "",
     "type": "cavacos",
     "images": {
       "main": "0.png",
       "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png"]
+    }
+  },
+  {
+    "id": "ff08cc45-3130-449d-a305-3c0519adb0c9",
+    "name": "Cavaco Verde e Laranja",
+    "description": "",
+    "type": "cavacos",
+    "images": {
+      "main": "3.png",
+      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"]
+    }
+  },
+  {
+    "id": "4bd06196-eee8-4226-b64b-0165da8b42ec",
+    "name": "Cavaco Verde e Preto",
+    "description": "",
+    "type": "cavacos",
+    "images": {
+      "main": "0.png",
+      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png"]
+    }
+  },
+  {
+    "id": "29a73367-90bf-41ec-91af-113920e3eff4",
+    "name": "Cavaco Cinza",
+    "description": "",
+    "type": "cavacos",
+    "images": {
+      "main": "0.png",
+      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"]
+    }
+  },
+  {
+    "id": "e51b704b-823d-438e-ac28-441c565b8fb5",
+    "name": "Cavaco Azul",
+    "description": "",
+    "type": "cavacos",
+    "images": {
+      "main": "0.png",
+      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+    }
+  },
+  {
+    "id": "58f537c9-e438-450c-8b7a-337a6e6ce202",
+    "name": "Cavaco Azul Escuro",
+    "description": "",
+    "type": "cavacos",
+    "images": {
+      "main": "0.png",
+      "gallery": ["1.png", "2.png", "3.png", "4.png"]
     }
   }
 ]
