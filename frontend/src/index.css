@@ -132,6 +132,13 @@ p {
   margin-bottom: .2em;
 }
 
+.products-title{
+  font-family: var(--font-title);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: .2em;
+}
+
 .section-bags h1{
   font-family: var(--font-title);
   text-align: center;
