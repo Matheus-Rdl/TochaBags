@@ -104,7 +104,7 @@ export default function Production() {
 
             <div>
               <img src="p2.png" />
-              <p className="text-center">Padrôes ou desenhos</p>
+              <p className="text-center">Padrões ou desenhos</p>
             </div>
 
             <div>
@@ -123,7 +123,7 @@ export default function Production() {
           <p className="text-center">
             Na TochaBags, tudo é personalizável, desde, o bordado, quanto a
             cores e modelos. è possivel adicionar itens, cores e
-            padrôes/desenhos. Converse com nossa equipe e deixe a criatividade
+            padrões ou desenhos. Converse com nossa equipe e deixe a criatividade
             correr solta!
           </p>
         </div>

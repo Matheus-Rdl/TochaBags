@@ -29,8 +29,8 @@ export default function Contacts() {
             src="icon-mapa.png"
           />
 
-          <div className="relative h-100 bg-green-800 [clip-path:polygon(0_24%,19%_0,89%_9%,100%_54%,86%_89%,37%_100%,4%_81%)]">
-            <div className="relative mx-5 h-100 [clip-path:polygon(0_22%,15%_5%,89%_9%,100%_54%,86%_87.5%,40%_95%,5%_81%)]">
+          <div className="relative h-100 bg-green-800 [clip-path:polygon(0_5%,19%_0,89%_9%,100%_54%,86%_89%,37%_100%,4%_81%)]">
+            <div className="relative mx-5 h-100 [clip-path:polygon(0_6%,20%_5%,89%_9%,100%_54%,86%_87.5%,40%_95%,5%_81%)]">
               <iframe
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14624.76769335495!2d-46.75193764424389!3d-23.59744891234026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce598dbcfcfc27%3A0x4d81ac1e2f4c9be5!2sTocha%20Bags!5e0!3m2!1spt-BR!2sbr!4v1736525358280!5m2!1spt-BR!2sbr"
