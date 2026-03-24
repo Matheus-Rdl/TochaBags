@@ -1,7 +1,7 @@
 export default function Production() {
   //Styles:
   const productionSubTitle =
-    "text-center text-2xl font-text bg-(--color-yellow) px-7 py-3";
+    "text-center font-bold text-1xl font-text bg-(--color-yellow) px-7 py-3";
   const productionSubTitleShadow =
     "absolute inset-0 bg-black translate-x-[6px] translate-y-[6px] -z-1";
 
@@ -64,21 +64,21 @@ export default function Production() {
 
           <div className="flex gap-5">
             <div className="flex flex-col items-center gap-5">
-              <div className="h-[175px] [clip-path:polygon(10%_0,100%_0,90%_100%,0%_100%)]">
+              <div className="h-[165px] [clip-path:polygon(10%_0,100%_0,90%_100%,0%_100%)]">
                 <img src="nylon.png" />
               </div>
               <p>Nylon poliéster 1680 PVC</p>
             </div>
 
             <div className="flex flex-col-reverse items-center gap-5">
-              <div className="h-[175px] [clip-path:polygon(0%_0,90%_0,100%_100%,10%_100%)]">
+              <div className="h-[165px] [clip-path:polygon(0%_0,90%_0,100%_100%,10%_100%)]">
                 <img src="lona.png" />
               </div>
               <p>Lona capota marítima</p>
             </div>
 
             <div className="flex flex-col items-center gap-5">
-              <div className="h-[175px] [clip-path:polygon(10%_0,100%_0,90%_100%,0%_100%)]">
+              <div className="h-[165px] [clip-path:polygon(10%_0,100%_0,90%_100%,0%_100%)]">
                 <img src="pelucia.png" />
               </div>
               <p>Pelúcia</p>
@@ -96,24 +96,24 @@ export default function Production() {
             <h2 className={productionSubTitle}>Personalizáveis</h2>
           </div>
 
-          <div className="flex gap-5">
+          <div className="flex gap-5 justify-center">
             <div>
-              <img src="p1.png" />
+              <img src="p1.png" className="max-w-40 w-[100%]" />
               <p className="text-center">Bordados</p>
             </div>
 
             <div>
-              <img src="p2.png" />
+              <img src="p2.png" className="max-w-40 w-[100%]"  />
               <p className="text-center">Padrões ou desenhos</p>
             </div>
 
             <div>
-              <img src="p3.png" />
+              <img src="p3.png" className="max-w-40 w-[100%]"  />
               <p className="text-center">Rodinhas</p>
             </div>
 
             <div>
-              <img className="rounded-full" src="p4.png" />
+              <img className="rounded-full max-w-40 w-[100%]" src="p4.png" />
               <p className="text-center">Bags duplas ou triplas</p>
             </div>
           </div>

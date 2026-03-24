@@ -4,7 +4,7 @@ export default function Bills() {
       <h1>Orçamento e pedidos</h1>
       <div className="flex ">
 
-        <div className="-mx-1 w-full bg-amber-400/40 [clip-path:polygon(0_0,92.5%_0,100%_100%,7.5%_100%)]">
+        <div className="-mx-1 w-[80%] bg-amber-400/40 [clip-path:polygon(0_0,92.5%_0,100%_100%,7.5%_100%)]">
           <img className="pl-[10%] pr-[13.5%] py-5 bg-amber-400" src="bills-1.png" />
           <p className="px-[15%] py-5 text-center">
             Por se tratar de uma bag personalizada, os orçamentos
@@ -14,7 +14,7 @@ export default function Bills() {
           </p>
         </div>
 
-        <div className="-mx-1 w-full bg-green-700/40 [clip-path:polygon(0_0,92.5%_0,100%_100%,7.5%_100%)]">
+        <div className="-mx-1 w-[80%] bg-green-700/40 [clip-path:polygon(0_0,92.5%_0,100%_100%,7.5%_100%)]">
           <img className="pl-[10%] pr-[13.5%] py-5 bg-green-700" src="bills-2.png" />
           <p className="px-[15%] py-5 text-center">
             Cada bag tem prazo médio de produção de
@@ -24,7 +24,7 @@ export default function Bills() {
           </p>
         </div>
 
-        <div className="-mx-1 w-full bg-(--color-brown)/40 [clip-path:polygon(0_0,92.5%_0,100%_100%,7.5%_100%)]">
+        <div className="-mx-1 w-[80%] bg-(--color-brown)/40 [clip-path:polygon(0_0,92.5%_0,100%_100%,7.5%_100%)]">
           <img className="pl-[10%] pr-[13.5%] py-5 bg-(--color-brown)" src="bills-3.png" />
           <p className="px-[15%] py-5 text-center">
             O envio pode ser feito através dos correios

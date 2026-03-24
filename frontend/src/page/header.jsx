@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="w-full h-100 relative">
+    <div className="w-full h-80 relative">
       <div className="w-full h-full bg-green-700 [clip-path:polygon(0_0,100%_0,70%_65%,0%_95%)] absolute top-0"></div>
       <div className="w-full h-full bg-(--color-brown) [clip-path:polygon(30%_0,100%_0,100%_100%,30%_65%)] absolute top-0"></div>
       <div className="w-full h-full bg-yellow-300 [clip-path:polygon(75%_0,102.5%_0,95%_95%,75%_92%)] absolute top-0"></div>
@@ -9,12 +9,12 @@ export default function Header() {
       <div className="w-full h-full bg-(--color-orange) [clip-path:polygon(0_0,75%_0,65%_85%,0_75%)] absolute top-0"></div>
       <div className="flex justify-center items-center absolute top-15 left-10">
         <div>
-          <h1 className="font-title text-6xl mb-10 text-center">Tocha Bags</h1>
+          <h1 className="font-title text-5xl mb-10 text-center">Tocha Bags</h1>
           <h2 className="font-title text-2xl text-center">
             O alfaiate dos seus instrumentos
           </h2>
         </div>
-        <img src="logo-tocha-bags.png" className="w-30 h-30" />
+        <img src="logo-tocha-bags.png" className="w-25 h-25" />
       </div>
     </div>
   );
