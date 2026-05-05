@@ -1,0 +1,40 @@
+.apresentation {
+  width: 49%;
+}
+
+.apresentation h1 {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+  font-family: var(--font-text2);
+}
+
+.apresentation div {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.apresentation div p {
+  font-family: var(--font-text);
+  font-size: .9rem;
+}
+
+.apresentation div img {
+  width: 40%;
+  transform: rotate(5deg);
+}
+
+@media (max-width: 1024px) {
+  .main_section {}
+}
+
+@media (max-width: 912px) {
+  .apresentation {
+    width: 100%;
+  }
+
+  .apresentation div img {
+    max-width: 200px;
+  }
+}

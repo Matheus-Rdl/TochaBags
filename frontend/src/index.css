@@ -72,6 +72,8 @@ button:focus-visible {
 
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 @font-face {
   font-family: "AnkeCalligraphic";
@@ -89,7 +91,7 @@ body {
 
 :root {
   --color-brown: #64201b;
-  --color-green: #076916;
+  --color-green: #0F3D2E;
   --color-yellow: #ffca2c;
   --color-orange: #fbab18;
   --white-nav: #f9f9f9;
@@ -97,7 +99,9 @@ body {
 
   --font-title: "AnkeCalligraphic", sans-serif;
   --font-text: "Montserrat", sans-serif;
+  --font-text2: "Source Sans 3", sans-serif;
 }
+
 
 .font-title {
   font-family: var(--font-title);
@@ -107,6 +111,23 @@ body {
   font-family: var(--font-text);
 }
 
+.font-style {
+  font-family: var(--font-text2);
+}
+
+.main_section{
+  margin-top: 4rem;
+}
+
+
+/*nest-hub*/
+@media (max-width: 1024) {
+  .main_section {
+    margin-top: 45rem;
+  }
+}
+
+/*
 p {
   font-family: var(--font-text);
 }
@@ -118,35 +139,43 @@ p {
   margin-bottom: 1.5em;
 }
 
-.section-contacts{
+.section-work {
+  width: 70%;
+  margin-inline: 15%;
+  margin-top: 4em;
+  margin-bottom: 1.5em;
+}
+
+.section-contacts {
   width: 90%;
   margin-inline: 5%;
   margin-top: 4em;
   margin-bottom: 1.5em;
 }
 
-.section h1, .section-contacts h1{
+.section h1,
+.section-work h1,
+.section-contacts h1 {
   font-family: var(--font-title);
   text-align: center;
   font-size: 60px;
   margin-bottom: .2em;
 }
 
-.products-title{
+.products-title {
   font-family: var(--font-title);
   text-align: center;
   font-size: 40px;
   margin-bottom: .2em;
 }
 
-.section-bags h1{
+.section-bags h1 {
   font-family: var(--font-title);
   text-align: center;
   font-size: 60px;
   margin-bottom: 1em;
 }
 
-/*flex gap-0 overflow-x-auto overflow-y-hidden cursor-grab select-none*/
 
 .scroll-container {
   display: flex;
@@ -160,10 +189,22 @@ p {
   cursor: grabbing;
 }
 
-/* opcional: esconder a scrollbar */
 .scroll-container::-webkit-scrollbar {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .section-work {
+    width: 90%;
+    margin-inline: 5%;
+  }
+}
 
+@media (max-width: 448px) {
+  .section {
+    width: 90%;
+    margin-inline: 5%;
+  }
+}
 
+*/

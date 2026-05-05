@@ -39,3 +39,9 @@
         border-b-[var(--color-green)]
         border-r-[var(--color-green)];
 }
+
+@media (max-width: 768px) {
+.bags-composition, .bags-customizable {
+  @apply mx-0 w-[100%];
+}
+}

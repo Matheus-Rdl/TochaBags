@@ -1,0 +1,94 @@
+.apresentation_work_section {
+  margin-inline: 10%;
+  margin-top: 11rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 2%;
+}
+
+/*nest-hub-max*/
+@media (max-width: 1280px) {}
+
+/*nest-hub*/
+@media (max-width: 1024px) {
+  .apresentation_work_section{
+    margin-inline: 5%;
+  }
+}
+
+/*surface-pro-7*/
+@media (max-width: 912px) {
+  .apresentation_work_section {
+    margin-top: 8rem;
+    flex-direction: column;
+  }
+}
+
+/*asus-zenbook-fold*/
+@media (max-width: 853px) {
+  .apresentation_work_section {
+  }
+}
+
+/*ipad-air*/
+@media (max-width: 820px) {
+  .apresentation_work_section {
+  }
+}
+
+/*ipad-mini*/
+@media (max-width: 768px) {
+  .apresentation_work_section {
+  }
+}
+
+@media (max-width: 550px) {
+  .apresentation_work_section {
+    margin-top: 25rem;
+  }
+}
+
+/*surface-duo*/
+@media (max-width: 540px) {
+  .apresentation_work_section {
+  }
+}
+
+@media (max-width: 450px) {
+  .apresentation_work_section {
+    margin-top: 27.5rem;
+  }
+}
+/*iphone-xr*/
+@media (max-width: 414px) {
+  .apresentation_work_section {
+  }  
+}
+
+/*galaxy-a51-a71*/
+@media (max-width: 412px) {
+  .apresentation_work_section {
+  }  
+}
+
+/*iphone-12-pro*/
+@media (max-width: 390px) {
+  .apresentation_work_section {
+  }    
+}
+
+/*iphone-se*/
+@media (max-width: 375px) {}
+
+/*galaxy-s8-plus*/
+@media (max-width: 360px) {
+  .apresentation_work_section {
+    margin-top: 25rem;
+  }    
+}
+
+/*galaxy-z-fold-5*/
+@media (max-width: 344px) {
+  .apresentation_work_section {
+  }    
+}

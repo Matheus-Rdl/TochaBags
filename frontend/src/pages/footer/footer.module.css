@@ -1,0 +1,189 @@
+/* Footer ao Todo */
+.footer {
+  margin-top: 1.5rem;
+  background-color: var(--color-green);
+  width: 100%;
+  padding-inline: 5%;
+  padding-top: .5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer_content {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.footer h1 {
+  font-size: xx-large;
+  font-style: italic;
+  color: var(--color-white);
+}
+
+.footer p {
+  font-family: var(--font-text);
+  font-size: .9rem;
+  color: var(--color-white);
+}
+
+/* LOCALIDADE */
+.location {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.location .map {
+  width: 40%;
+  min-width: 250px;
+  position: relative;
+  border-radius: 1rem;
+  background-color: var(--color-yellow);
+}
+
+
+.location .map iframe {
+  border-radius: 1rem;
+}
+
+/*REDES SOCIAIS*/
+.social .social_content {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.social p {
+  text-align: center;
+}
+
+.social .social_content div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: .2rem;
+  padding-inline: 1rem;
+  border-radius: .5rem;
+  border: 3px solid;
+}
+
+.social .social_content div p {
+  font-weight: bold;
+}
+
+.social .social_content div:nth-child(1) {
+  border-color: #1877F2;
+}
+
+.social .social_content div:nth-child(2) {
+  border-color: #e61f61;
+}
+
+.social .social_content div:nth-child(3) {
+  border-color: #25D366;
+}
+
+.social .social_content div img {
+  width: 35px;
+  height: 35px;
+}
+
+
+/*LOGO NO FOOTER*/
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer_logo .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_logo .title h1 {
+  color: var(--white);
+  font-size: xx-large;
+}
+
+.footer_logo .title h2 {
+  color: var(--color-yellow);
+  font-size: large;
+}
+
+@media (max-width: 912px) {
+
+  /* LOCALIDADE */
+  .location {
+    flex-direction: column;
+  }
+
+  .location .map {
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  /* LOCALIDADE */
+
+  .footer_content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .location {
+    flex-direction: row;
+  }
+
+  .location .map {
+    min-width: none;
+    width: 75%;
+  }
+
+  .social .social_content {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 480px) {
+  /* LOCALIDADE */
+
+  .footer_content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .location {
+    flex-direction: row;
+  }
+
+  .location .map {
+    min-width: none;
+    width: 75%;
+  }
+
+  .social {
+    flex-direction: column;
+    width: 75%;
+  }
+
+  .social .social_content {
+    flex-direction: column;
+  }
+
+  /* LOGO DO FOOTER */
+
+  .footer_logo {
+    flex-direction: column;
+    text-align: center;
+  }
+}
