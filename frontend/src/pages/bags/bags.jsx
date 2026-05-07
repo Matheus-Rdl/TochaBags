@@ -5,30 +5,62 @@ export default function Bags() {
     <>
       <div className={styles.bags}>
 
-        <div className={styles.bags_content}>
+        <h1 className="font-style">Nossas Bags</h1>
+
+        <div className={styles.bags_content_1}>
 
           <div className={styles.box}>
-            <img src="images/bags1.png" />
+            <img src="/images/bags1.png" />
             <div></div>
             <p>Percussão</p>
           </div>
 
           <div className={styles.box}>
-            <img src="images/bags2.png" />
+            <img src="/images/bags2.png" />
             <div></div>
             <p>Cordas</p>
           </div>
 
           <div className={styles.box}>
-            <img src="images/bags3.png" />
+            <img src="/images/bags3.png" />
             <div></div>
             <p>Sopro</p>
           </div>
 
           <div className={styles.box}>
-            <img src="images/bags4.png" />
+            <img src="/images/bags4.png" />
             <div></div>
             <p>Diversos</p>
+          </div>
+        </div>
+
+        <div className={styles.bags_content_2}>
+          <div className={styles.bags_content_2_box}>
+            <div className={styles.box}>
+              <img src="/images/bags1.png" />
+              <div></div>
+              <p>Percussão</p>
+            </div>
+
+            <div className={styles.box}>
+              <img src="/images/bags2.png" />
+              <div></div>
+              <p>Cordas</p>
+            </div>
+          </div>
+
+          <div className={styles.bags_content_2_box}>
+            <div className={styles.box}>
+              <img src="/images/bags3.png" />
+              <div></div>
+              <p>Sopro</p>
+            </div>
+
+            <div className={styles.box}>
+              <img src="/images/bags4.png" />
+              <div></div>
+              <p>Diversos</p>
+            </div>
           </div>
         </div>
 

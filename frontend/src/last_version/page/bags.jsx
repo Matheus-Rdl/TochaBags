@@ -41,7 +41,7 @@ export default function Bags() {
               </div>
               <img
                 className="w-[50%] [clip-path:polygon(0_0,90%_0,100%_100%,0_100%)]"
-                src="percussion-img.png"
+                src="/percussion-img.png"
               />
               <div className="-z-1 bg-green-700 absolute -top-[10%] left-[70%] w-[25%] h-[75%] [clip-path:polygon(0_0,70%_0,100%_100%,15%_100%)]"></div>
               <div className="-z-1 bg-green-600 absolute top-[15%] left-[52.5%] w-[30%] h-[75%] [clip-path:polygon(0_0,85%_0,100%_100%,10%_100%)]"></div>
@@ -73,7 +73,7 @@ export default function Bags() {
             </div>
             <img
               className="w-[50%] [clip-path:polygon(10%_0,100%_0,100%_100%,0_100%)] ml-[50%]"
-              src="strings-img.png"
+              src="/strings-img.png"
             />
             <div className="-z-1 bg-green-700 absolute top-[25%] right-[65%] w-[25%] h-[65%] [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]"></div>
             <div className="-z-1 bg-green-600 absolute top-[5%] right-[50%] w-[25%] h-[60%] [clip-path:polygon(15%_0,100%_0,90%_100%,0_100%)]"></div>
@@ -103,7 +103,7 @@ export default function Bags() {
             </div>
             <img
               className="w-[50%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)] mx-[20%]"
-              src="percussion-img.png"
+              src="/percussion-img.png"
             />
             <div className="-z-1 bg-green-700 absolute top-[30%] right-[10%] w-[30%] h-[60%] [clip-path:polygon(0_0,90%_0,100%_100%,15%_100%)]"></div>
             <div className="-z-1 bg-green-600 absolute -top-[10%] right-[20%] w-[25%] h-[65%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)]"></div>
@@ -133,7 +133,7 @@ export default function Bags() {
             </div>
             <img
               className="w-[50%] [clip-path:polygon(0_0,100%_0,90%_100%,0_100%)]"
-              src="strings-img.png"
+              src="/strings-img.png"
             />
             <div className="-z-1 bg-green-700 absolute top-[25%] left-[65%] w-[25%] h-[70%] [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]"></div>
             <div className="-z-1 bg-green-600 absolute -top-[10%] left-[55%] w-[25%] h-[70%] [clip-path:polygon(10%_0,90%_0,100%_100%,0_100%)]"></div>

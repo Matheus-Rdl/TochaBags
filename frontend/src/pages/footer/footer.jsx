@@ -35,23 +35,23 @@ export default function Footer() {
             <div className={styles.social_content}>
               <div>
                 <p>Facebook</p>
-                <img src="images/facebook.png" />
+                <img src="/images/facebook.png" />
               </div>
 
               <div>
                 <p>Instagram</p>
-                <img src="images/instagram.png" />
+                <img src="/images/instagram.png" />
               </div>
 
               <div>
                 <p>WhatsApp</p>
-                <img src="images/whatsapp.png" />
+                <img src="/images/whatsapp.png" />
               </div>
             </div>
           </div>
 
           <div className={styles.footer_logo}>
-            <img src="images/logo.png" className={styles.logo} />
+            <img src="/images/logo.png" className={styles.logo} />
             <div className={styles.title}>
               <h1 className={`font-title`}>Tocha Bags</h1>
               <h2 className={`font-title`}>O alfaiate dos seus instrumentos</h2>

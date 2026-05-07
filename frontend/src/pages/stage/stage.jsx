@@ -57,7 +57,7 @@ export default function Stage() {
 
       <div className={styles.stage_cards}>
         <div className={`${styles.stage_cards_content_1}`}>
-          <img src="images/stage1.png" />
+          <img src="/images/stage1.png" />
           <div>
             <p><span>Feito com paixão</span></p>
             <p>Mais do que bags, entregamos segurança e confiança para músicos que levam sua arte a sério.</p>
@@ -65,7 +65,7 @@ export default function Stage() {
         </div>
 
         <div className={`${styles.stage_cards_content_2}`}>
-          <img src="images/stage2.png" />
+          <img src="/images/stage2.png" />
           <div>
             <p><span>Prazo que respeita sua música</span></p>
             <p>Cada bag tem prazo definido e a gente cumpre. Organização e respeito com o seu tempo e sua arte.</p>
@@ -73,7 +73,7 @@ export default function Stage() {
         </div>
 
         <div className={`${styles.stage_cards_content_3}`}>
-          <img src="images/stage3.png" />
+          <img src="/images/stage3.png" />
           <div>
             <p><span>Segurança em cada entrega</span></p>
             <p>O envio é feito com todo cuidado para que sua bag chegue perfeita até você.</p>
