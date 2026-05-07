@@ -1,6 +1,5 @@
 /* Footer ao Todo */
 .footer {
-  margin-top: 1.5rem;
   background-color: var(--color-green);
   width: 100%;
   padding-inline: 5%;
@@ -17,7 +16,9 @@
 .footer h1 {
   font-size: xx-large;
   font-style: italic;
+  font-weight: bold;
   color: var(--color-white);
+  font-family: var(--font-text2);
 }
 
 .footer p {

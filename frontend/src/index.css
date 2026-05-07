@@ -75,6 +75,8 @@ button:focus-visible {
 /*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
 @font-face {
   font-family: "AnkeCalligraphic";
   src: url(./fonts/AnkeCalligraphicFG.woff2) format("woff2"),
@@ -91,15 +93,20 @@ body {
 
 :root {
   --color-brown: #64201b;
-  --color-green: #0F3D2E;
+  /*--color-green: #0F3D2E;*/
+  --color-green: #031A16;
+  --color-green-light: #0B4A3B;
   --color-yellow: #ffca2c;
+  --color-gold: #D4A017;
   --color-orange: #fbab18;
   --white-nav: #f9f9f9;
   --white: #f2f2f2;
+  --gray: #E3DFDA;
 
   --font-title: "AnkeCalligraphic", sans-serif;
   --font-text: "Montserrat", sans-serif;
-  --font-text2: "Source Sans 3", sans-serif;
+  /*--font-text2: "Source Sans 3", sans-serif;*/
+  --font-text2:"Cormorant Garamond", serif;
 }
 
 
