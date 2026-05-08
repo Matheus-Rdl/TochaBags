@@ -343,8 +343,6 @@
     display: none;
   }
 
-
-
   .header_content_boxes_mobile {
     display: flex;
     font-size: .8rem;
@@ -358,24 +356,27 @@
   .header_content .header_content_text p {
     color: var(--white);
     font-size: small;
+    text-align: center;
   }
-
-
 
   .header_content .header_content_btns {
     justify-content: space-around;
   }
 
   .header_content .header_content_btns button {
-    font-size: xx-small;
+    font-size: .65rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
   }
+
 
   .header_content .header_content_text p:nth-child(1) {
     text-align: center;
   }
 
   .header_content .header_content_text p:nth-child(2) {
-    font-size: x-large;
+    font-size: xx-large;
     line-height: 2rem;
   }
 
