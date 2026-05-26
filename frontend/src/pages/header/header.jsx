@@ -8,6 +8,10 @@ export default function Header() {
   return (
     <>
       <div className={styles.header}>
+      <div className={styles.triangle}>
+        <div className={styles.rectangle1}></div>
+        <div className={styles.rectangle2}></div>
+      </div>
 
         <div className={styles.header_content}>
 

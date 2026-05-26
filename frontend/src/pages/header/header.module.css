@@ -13,6 +13,34 @@
   height: 550px;
 }
 
+.triangle{
+  width: 20%;
+  max-width: 200px;
+  height: 300px;
+  background: #118C4F;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.rectangle1{
+  width: 70%;
+  max-width: 200px;
+  height: 70%;
+  background: linear-gradient(
+    180deg,
+    var(--color-green) -30%,
+    #118C4F 30%,
+    var(--color-yellow) 100%
+  );
+  clip-path: polygon(0 0, 15% 0, 100% 85%, 100% 100%);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
 /*
 .header_backgroung div {
   background-color: #076916;
@@ -49,7 +77,6 @@
   margin-left: 10%;
 
   -webkit-mask-composite: destination-in;
-
 
   mask-image: linear-gradient(to left,
       black 0%,
