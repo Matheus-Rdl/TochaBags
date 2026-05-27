@@ -93,8 +93,9 @@ body {
 
 :root {
   --color-brown: #64201b;
-  /*--color-green: #0F3D2E;*/
-  --color-green: #031A16;
+  /*--color-green-dark: #0F3D2E;*/
+  --color-green-dark: #031A16;
+  --color-green: #082e28;
   --color-green-light: #0B4A3B;
   --color-yellow: #ffca2c;
   --color-gold: #D4A017;

@@ -30,7 +30,7 @@
   height: 70%;
   background: linear-gradient(
     180deg,
-    var(--color-green) -30%,
+    var(--color-green-dark) -30%,
     #118C4F 30%,
     var(--color-yellow) 100%
   );
@@ -373,7 +373,7 @@
   .header_content_boxes_mobile {
     display: flex;
     font-size: .8rem;
-    background-color: var(--color-green);
+    background-color: var(--color-green-dark);
     padding: 1rem;
   }
 }
