@@ -1,0 +1,16 @@
+.dialogBox {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dialogTitle {
+  font-size: x-large;
+  text-align: center;
+}
+
+
+
+
+

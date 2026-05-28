@@ -1,6 +1,16 @@
-import styles from "../bags/bags.module.css"
+import { useState } from "react";
+import DialogBag from "../../components/dialogBag/dialogBag";
+import styles from "./bags.module.css"
+import { FaEye } from "react-icons/fa";
+import BagsProducts from "../../components/bagsProducts/bagsProducts";
 
 export default function Bags() {
+  const [openBag, setOpenBag] = useState(null);
+
+  const handleOpenBag = () => {
+    setOpenBag(true)
+  }
+
   return (
     <>
       <div className={styles.bags}>
@@ -10,34 +20,46 @@ export default function Bags() {
         <div className={styles.bags_content_1}>
 
           <div className={styles.box}>
-            <img src="/images/bags1.png" />
+            {/* 
+              <img src="/images/bags1.png" />
+            */}
+            <img src="/images/b-icon1.png" />
             <div className={styles.box_icon}>
-              <img src="/images/b-icon1.png" />
-              <p>Percussão</p>
+              <p><span>Percussão</span></p>
+              <p>Bags para surdos, caixas, pandeiros e mais.</p>
             </div>
           </div>
 
           <div className={styles.box}>
-            <img src="/images/bags2.png" />
+            {/* 
+              <img src="/images/bags2.png" />
+            */}
+            <img src="/images/b-icon2.png" />
             <div className={styles.box_icon}>
-              <img src="/images/b-icon2.png" />
-              <p>Cordas</p>
+              <p><span>Cordas</span></p>
+              <p>Bags para cavacos, violões, guitarras e baixos.</p>
             </div>
           </div>
 
           <div className={styles.box}>
-            <img src="/images/bags3.png" />
+            {/* 
+              <img src="/images/bags3.png" />
+            */}
+            <img src="/images/b-icon3.png" />
             <div className={styles.box_icon}>
-              <img src="/images/b-icon3.png" />
-              <p>Sopro</p>
+              <p><span>Sopro</span></p>
+              <p>Bags para saxofones, trompetes, flautas e mais.</p>
             </div>
           </div>
 
           <div className={styles.box}>
-            <img src="/images/bags4.png" />
+            {/* 
+              <img src="/images/bags4.png" />
+            */}
+            <img src="/images/b-icon4.png" />
             <div className={styles.box_icon}>
-              <img src="/images/b-icon4.png" />
-              <p>Diversos</p>
+              <p><span>Diversos</span></p>
+              <p>Bags para acessórios, pedais, cabos e muito mais.</p>
             </div>
           </div>
         </div>
@@ -68,46 +90,7 @@ export default function Bags() {
           </div>
         </div>
 
-        <div className={styles.bags_products}>
-          <div className={styles.bags_list}>
-            <div className={styles.bags_card}>
-              <div>
-                <img src="/bags/cavacos/4bd06196-eee8-4226-b64b-0165da8b42ec/0.png" />
-              </div>
-              <h2>Bags - Cavacos</h2>
-            </div>
-            <div className={styles.bags_card}>
-              <div>
-                <img src="/bags/cavacos/4bd06196-eee8-4226-b64b-0165da8b42ec/1.png" />
-              </div>
-              <h2>Bags - Cavacos</h2>
-            </div>
-            <div className={styles.bags_card}>
-              <div>
-                <img src="/bags/cavacos/4bd06196-eee8-4226-b64b-0165da8b42ec/2.png" />
-              </div>
-              <h2>Bags - Cavacos</h2>
-            </div>
-            <div className={styles.bags_card}>
-              <div>
-                <img src="/bags/cavacos/4bd06196-eee8-4226-b64b-0165da8b42ec/3.png" />
-              </div>
-              <h2>Bags - Cavacos</h2>
-            </div>
-            <div className={styles.bags_card}>
-              <div>
-                <img src="/bags/cavacos/4bd06196-eee8-4226-b64b-0165da8b42ec/4.png" />
-              </div>
-              <h2>Bags - Cavacos</h2>
-            </div>
-            <div className={styles.bags_card}>
-              <div>
-                <img src="/bags/cavacos/4bd06196-eee8-4226-b64b-0165da8b42ec/5.png" />
-              </div>
-              <h2>Bags - Cavacos</h2>
-            </div>
-          </div>
-        </div>
+        <BagsProducts/>
 
       </div>
     </>
