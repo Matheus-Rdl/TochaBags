@@ -1,6 +1,6 @@
 import { useState } from "react";
 import DialogBag from "../../components/dialogBag/dialogBag";
-import styles from "../bagsProducts/BagsProducts.module.css";
+import styles from "./bagsProducts.module.css";
 import { FaEye } from "react-icons/fa";
 import bags from "../../data/bags.json";
 
