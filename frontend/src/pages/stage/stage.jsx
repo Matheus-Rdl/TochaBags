@@ -59,24 +59,24 @@ export default function Stage() {
         <div className={`${styles.stage_cards_content_1}`}>
           <img src="/images/stage1.png" />
           <div>
-            <p><span>Feito com paixão</span></p>
-            <p>Mais do que bags, entregamos segurança e confiança para músicos que levam sua arte a sério.</p>
+            <p><span className={styles.stageTitle}>Feito com paixão</span></p>
+            <p>Mais do que <span translate="no"> bags </span>, entregamos segurança e confiança para músicos que levam sua arte a sério.</p>
           </div>
         </div>
 
         <div className={`${styles.stage_cards_content_2}`}>
           <img src="/images/stage2.png" />
           <div>
-            <p><span>Prazo que respeita sua música</span></p>
-            <p>Cada bag tem prazo definido e a gente cumpre. Organização e respeito com o seu tempo e sua arte.</p>
+            <p><span className={styles.stageTitle}>Prazo que respeita sua música</span></p>
+            <p>Cada <span translate="no"> bag </span> tem prazo definido e a gente cumpre. Organização e respeito com o seu tempo e sua arte.</p>
           </div>
         </div>
 
         <div className={`${styles.stage_cards_content_3}`}>
           <img src="/images/stage3.png" />
           <div>
-            <p><span>Segurança em cada entrega</span></p>
-            <p>O envio é feito com todo cuidado para que sua bag chegue perfeita até você.</p>
+            <p><span className={styles.stageTitle}>Segurança em cada entrega</span></p>
+            <p>O envio é feito com todo cuidado para que sua <span translate="no"> bag chegue </span> perfeita até você.</p>
           </div>
         </div>
       </div>

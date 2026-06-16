@@ -53,9 +53,9 @@ export default function Footer() {
           <div className={styles.footer_logo}>
             <img src="/images/logo.png" className={styles.logo} />
             <div className={styles.title}>
-              <h1 className={`font-title`}>Tocha Bags</h1>
+              <h1 className={`font-title`} translate="no">Tocha Bags</h1>
               <h2 className={`font-title`}>O alfaiate dos seus instrumentos</h2>
-              <p>© 2024–2026 Tocha Bags.<br></br>Todos os direitos reservados.</p>
+              <p>© 2024–2026 <span translate="no"> Tocha Bags. </span><br></br>Todos os direitos reservados.</p>
               <p>Feito com ❤️ para músicos.</p>
             </div>
           </div>

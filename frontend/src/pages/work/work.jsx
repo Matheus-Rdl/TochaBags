@@ -33,7 +33,7 @@ export default function Work() {
             <div className={styles.work_box_items}>
               <GiBorderedShield />
               <div>
-                <p><strong>A proteção</strong></p>
+                <p translate="no"><strong>A proteção</strong></p>
                 <p>Utilizamos materiais de alta qualidade e técnicas de costura reforçada.</p>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function Work() {
             <div className={styles.work_box_items}>
               <TbShoppingCartBolt />
               <div>
-                <p><strong>A praticidade</strong></p>
+                <p translate="no"><strong>A praticidade</strong></p>
                 <p>Conforto no transporte, resistência no dia a dia e organização sempre.</p>
               </div>
             </div>

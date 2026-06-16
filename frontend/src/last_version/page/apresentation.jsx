@@ -1,7 +1,9 @@
 export default function Apresentation() {
   return (
     <section className="section">
-      <h1>A Tocha Bags</h1>
+      <h1 translate="no">
+        A <span translate="no" className="notraslate">Tocha Bags</span>
+      </h1>
       <p className="text-center w-[100%] font-text md:w-[50%] md:mx-[25%]">
         Tocha Bags nasceu da paixão pela música e da necessidade de expressar
         essa paixão de forma única e personalizada. Somos uma marca

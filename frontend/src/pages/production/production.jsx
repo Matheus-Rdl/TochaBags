@@ -7,7 +7,7 @@ export default function Production() {
 
         <div className={styles.production_text}>
           <h1 className="font-style">Nossa Produção</h1>
-          <p>Nossas bags são produzidas com materiais de alta qualidade e durabilidade, combinando design funcional e acabamento premium para oferecer proteção extra durante o transporte e praticidade no dia a dia.</p>
+          <p>Nossas <span translate="no"> bags </span> são produzidas com materiais de alta qualidade e durabilidade, combinando design funcional e acabamento premium para oferecer proteção extra durante o transporte e praticidade no dia a dia.</p>
         </div>
 
         <div className={styles.production_content}>

@@ -1,63 +1,144 @@
 [
   {
-    "id": "58e19bf6-36ea-4113-8a02-50ebf63114a9",
-    "name": "Cavaco Amarelo",
-    "description": "",
-    "type": "cavacos",
-    "images": {
-      "main": "0.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png"]
-    }
-  },
-  {
-    "id": "ff08cc45-3130-449d-a305-3c0519adb0c9",
-    "name": "Cavaco Verde e Laranja",
-    "description": "",
-    "type": "cavacos",
-    "images": {
-      "main": "3.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"]
-    }
+    "id": "29a73367-90bf-41ec-91af-113920e3eff4",
+    "title": "Cavaco Cinza",
+    "type" : "cordas",
+    "description": "Confeccionada com materiais resistentes e interior peluciado, oferecendo proteção, praticidade e conforto no transporte do instrumento.",
+    "tags": [
+      "Interior Peluciado",
+      "Bolso Externo",
+      "Acolchoada",
+      "Acabamento Premium",
+      "Alça Reforçada",
+      "Artesanal"
+    ],
+    "": "",
+    "images": [
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/0.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/1.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/2.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/3.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/4.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/5.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/6.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/7.png",
+      "/bags/29a73367-90bf-41ec-91af-113920e3eff4/8.png"
+    ]
   },
   {
     "id": "4bd06196-eee8-4226-b64b-0165da8b42ec",
-    "name": "Cavaco Verde e Preto",
+    "title": "Bags - Percussão",
+    "type" : "percussao",
     "description": "",
-    "type": "cavacos",
-    "images": {
-      "main": "0.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png"]
-    }
+    "tags": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/0.png",
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/1.png",
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/2.png",
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/3.png",
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/4.png",
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/5.png",
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/6.png",
+      "/bags/4bd06196-eee8-4226-b64b-0165da8b42ec/7.png"
+    ]
   },
   {
-    "id": "29a73367-90bf-41ec-91af-113920e3eff4",
-    "name": "Cavaco Cinza",
+    "id": "58e19bf6-36ea-4113-8a02-50ebf63114a9",
+    "title": "Bags - Cordas",
+    "type" : "cordas",
     "description": "",
-    "type": "cavacos",
-    "images": {
-      "main": "0.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"]
-    }
-  },
-  {
-    "id": "e51b704b-823d-438e-ac28-441c565b8fb5",
-    "name": "Cavaco Azul",
-    "description": "",
-    "type": "cavacos",
-    "images": {
-      "main": "0.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
-    }
+    "tags": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/bags/58e19bf6-36ea-4113-8a02-50ebf63114a9/0.png",
+      "/bags/58e19bf6-36ea-4113-8a02-50ebf63114a9/1.png",
+      "/bags/58e19bf6-36ea-4113-8a02-50ebf63114a9/2.png",
+      "/bags/58e19bf6-36ea-4113-8a02-50ebf63114a9/3.png",
+      "/bags/58e19bf6-36ea-4113-8a02-50ebf63114a9/4.png",
+      "/bags/58e19bf6-36ea-4113-8a02-50ebf63114a9/5.png"
+    ]
   },
   {
     "id": "58f537c9-e438-450c-8b7a-337a6e6ce202",
-    "name": "Cavaco Azul Escuro",
+    "title": "Bags - Diversos",
+    "type" : "diversos",
     "description": "",
-    "type": "cavacos",
-    "images": {
-      "main": "0.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png", "5.png"]
-    }
+    "tags": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/bags/58f537c9-e438-450c-8b7a-337a6e6ce202/0.png",
+      "/bags/58f537c9-e438-450c-8b7a-337a6e6ce202/1.png",
+      "/bags/58f537c9-e438-450c-8b7a-337a6e6ce202/2.png",
+      "/bags/58f537c9-e438-450c-8b7a-337a6e6ce202/3.png",
+      "/bags/58f537c9-e438-450c-8b7a-337a6e6ce202/4.png"
+    ]
+  },
+  {
+    "id": "e51b704b-823d-438e-ac28-441c565b8fb5",
+    "title": "Bags - Cavacos",
+    "type" : "diversos",
+    "description": "",
+    "tags": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/bags/e51b704b-823d-438e-ac28-441c565b8fb5/0.png",
+      "/bags/e51b704b-823d-438e-ac28-441c565b8fb5/1.png",
+      "/bags/e51b704b-823d-438e-ac28-441c565b8fb5/2.png",
+      "/bags/e51b704b-823d-438e-ac28-441c565b8fb5/3.png",
+      "/bags/e51b704b-823d-438e-ac28-441c565b8fb5/4.png",
+      "/bags/e51b704b-823d-438e-ac28-441c565b8fb5/5.png",
+      "/bags/e51b704b-823d-438e-ac28-441c565b8fb5/6.png"
+    ]
+  },
+  {
+    "id": "ff08cc45-3130-449d-a305-3c0519adb0c9",
+    "title": "Bags - Cavacos",
+    "type" : "sopros",
+    "description": "",
+    "tags": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "images": [
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/0.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/1.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/2.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/3.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/4.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/5.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/6.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/7.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/8.png",
+      "/bags/ff08cc45-3130-449d-a305-3c0519adb0c9/9.png"
+    ]
   }
-
 ]

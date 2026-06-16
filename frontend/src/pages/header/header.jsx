@@ -18,19 +18,19 @@ export default function Header() {
           <div className={styles.header_content_logo}>
             <img src="/images/logo.png" className={styles.logo} />
             <div className={styles.title}>
-              <h1 className={`font-title`}>Tocha Bags</h1>
+              <h1 className={`font-title`} translate="no">Tocha Bags</h1>
               <h2 className={`font-title`}>O alfaiate dos seus instrumentos</h2>
             </div>
           </div>
 
           <div className={styles.header_content_text}>
-            <p className="font-title">Proteção que acompanha</p>
+            <p className="font-title" translate="no">Proteção que acompanha</p>
             <p className="font-style">O ritmo<br></br>da sua música</p>
-            <p className="font-text">Soluções sob medida em bags e cases para instrumentos musicais, feitas com materiais de alta qualidade e acabamento impecável.</p>
+            <p className="font-text" translate="no">Soluções sob medida em bags e cases para instrumentos musicais, feitas com materiais de alta qualidade e acabamento impecável.</p>
 
             <div className={styles.header_content_btns}>
-              <button className="font-text"><FaWhatsapp />Fazer orçamento</button>
-              <button className="font-text">Conheça nossas bags</button>
+              <button className="font-text" translate="no"><FaWhatsapp />Fazer orçamento</button>
+              <button className="font-text"  translate="no">Conheça nossas bags</button>
             </div>
           </div>
 

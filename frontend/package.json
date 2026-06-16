@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "generate-bags": "node scripts/generateBags.js",
+    "generate-bags": "node src/scripts/generateBags.js",
     "dev": "npm run generate-bags && vite",
     "build": "npm run generate-bags && vite build",
     "preview": "vite preview",

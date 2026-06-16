@@ -83,7 +83,7 @@
   font-size: .9rem;
 }
 
-.stage_cards p span {
+.stage_cards p .stageTitle {
   font-family: var(--font-text2);
   font-size: 1.75rem;
   line-height: 1.5rem;

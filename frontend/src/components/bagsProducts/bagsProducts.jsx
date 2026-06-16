@@ -4,30 +4,39 @@ import styles from "../bagsProducts/BagsProducts.module.css";
 import { FaEye } from "react-icons/fa";
 import bags from "../../data/bags.json";
 
-export default function BagsProducts() {
-  const [openBag, setOpenBag] = useState(null);
+export default function BagsProducts({filterBag}) {
+  console.log(filterBag);
+  const [openBag, setOpenBag] = useState(false);
+  const [bag, setBag] = useState("");
 
-  console.log(bags)
-  console.log(bags[0])
-  console.log(bags[0]?.images)
-  console.log(bags[0]?.images?.[0])
+  const [filter, setFilter] = useState(filterBag);
+
+  const filteredBags =
+    filter === "todos"
+      ? bags
+      : bags.filter((bag) => bag.type === filterBag);
 
   return (
     <>
       <div className={styles.bags_products}>
         <div className={styles.bags_list}>
-          {bags.map((bag) => (
-            <div className={styles.bags_card} key={bag.id}>
+          {filteredBags.map((item) => (
+            <div className={styles.bags_card} key={item.id}>
               <div>
                 <img
-                  src={`/bags/${bag.type}/${bag.id}/${bag.images.main}`}
-                  alt={bag.name}
+                  src={item.images[0]}
+                  alt={item.title}
                 />
               </div>
 
-              <h2>{bag.name}</h2>
+              <h2>{item.title}</h2>
 
-              <button onClick={() => setOpenBag(bag)}>
+              <button
+                onClick={() => {
+                  setBag(item);
+                  setOpenBag(true);
+                }}
+              >
                 Ver detalhes <FaEye />
               </button>
             </div>
@@ -36,8 +45,10 @@ export default function BagsProducts() {
       </div>
 
       <DialogBag
+        className={styles.dialogBar}
         open={openBag}
-        onClose={() => setOpenBag(null)}
+        onClose={() => setOpenBag(false)}
+        bag={bag}
       />
     </>
   );
