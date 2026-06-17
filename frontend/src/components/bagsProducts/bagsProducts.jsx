@@ -4,7 +4,7 @@ import styles from "./bagsProducts.module.css";
 import { FaEye } from "react-icons/fa";
 import bags from "../../data/bags.json";
 
-export default function BagsProducts({filterBag}) {
+export default function BagsProducts({ filterBag }) {
   const [openBag, setOpenBag] = useState(false);
   const [bag, setBag] = useState("");
 
@@ -13,7 +13,10 @@ export default function BagsProducts({filterBag}) {
   const filteredBags =
     filter === "todos"
       ? bags
-      : bags.filter((bag) => bag.type === filterBag);
+      : bags.filter((bag) => bag.type === filter);
+
+  console.log("bags", bags);
+  console.log("filteredBags", filteredBags);
 
   return (
     <>

@@ -6,7 +6,7 @@ import BagsProducts from "../../components/bagsProducts/bagsProducts";
 
 export default function Bags() {
   const [openBag, setOpenBag] = useState(null);
-  const [filter, setFilter] = useState("cordas");
+  const [filter, setFilter] = useState("percussao");
 
   const handleOpenBag = () => {
     setOpenBag(true)
