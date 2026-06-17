@@ -13,10 +13,18 @@ export default function BagsProducts({ filterBag }) {
   const filteredBags =
     filter === "todos"
       ? bags
-      : bags.filter((bag) => bag.type === filter);
+      : bags.filter((bag) => bag.type === filterBag);
 
-  console.log("bags", bags);
-  console.log("filteredBags", filteredBags);
+  //console.log("bags", bags);
+  //console.log("filteredBags", filteredBags);
+  console.log("filterBag =", filterBag);
+
+  console.log(
+    "tipos existentes =",
+    bags.map((b) => b.type)
+  );
+
+  console.log("primeira bag", bags[0]);
 
   return (
     <>

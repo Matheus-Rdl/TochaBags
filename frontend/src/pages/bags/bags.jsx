@@ -12,6 +12,8 @@ export default function Bags() {
     setOpenBag(true)
   }
 
+  console.log(filter)
+
   return (
     <>
       <div className={styles.bags}>
