@@ -26,6 +26,9 @@ function readFolder(folderPath, publicPath = "/bags") {
 				result.push({
 					id: item,
 					title: "Bags - Cavacos",
+					type: "cordas",
+					description: "",
+					tags: [],
 					images
 				});
 			} else {
