@@ -14,8 +14,6 @@ export default function DialogBag({ open, onClose, bag }) {
     }
   }, [bag]);
 
-  console.log(bag);
-
   if (!bag) return null;
 
   if (isMobile) {

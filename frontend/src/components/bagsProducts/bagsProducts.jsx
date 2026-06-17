@@ -5,7 +5,6 @@ import { FaEye } from "react-icons/fa";
 import bags from "../../data/bags.json";
 
 export default function BagsProducts({filterBag}) {
-  console.log(filterBag);
   const [openBag, setOpenBag] = useState(false);
   const [bag, setBag] = useState("");
 
