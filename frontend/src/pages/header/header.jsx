@@ -8,10 +8,10 @@ export default function Header() {
   return (
     <>
       <div className={styles.header}>
-      <div className={styles.triangle}>
-        <div className={styles.rectangle1}></div>
-        <div className={styles.rectangle2}></div>
-      </div>
+        <div className={styles.triangle}>
+          <div className={styles.rectangle1}></div>
+          <div className={styles.rectangle2}></div>
+        </div>
 
         <div className={styles.header_content}>
 
@@ -29,8 +29,15 @@ export default function Header() {
             <p className="font-text" translate="no">Soluções sob medida em bags e cases para instrumentos musicais, feitas com materiais de alta qualidade e acabamento impecável.</p>
 
             <div className={styles.header_content_btns}>
-              <button className="font-text" translate="no"><FaWhatsapp />Fazer orçamento</button>
-              <button className="font-text"  translate="no">Conheça nossas bags</button>
+              <a
+                className="font-text"
+                translate="no"
+                href="https://wa.me/5511948495894"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaWhatsapp />Fazer orçamento
+              </a>
+              <a className="font-text" translate="no" href="#bags">Conheça nossas bags</a>
             </div>
           </div>
 

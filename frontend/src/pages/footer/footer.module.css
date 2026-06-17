@@ -69,14 +69,17 @@
   text-align: center;
 }
 
-.social .social_content div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.social .social_content div{
   padding-block: .2rem;
   padding-inline: 1rem;
   border-radius: .5rem;
   border: 3px solid;
+}
+
+.social .social_content a{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .social .social_content div p {
@@ -98,6 +101,7 @@
 .social .social_content div img {
   width: 35px;
   height: 35px;
+  margin-left: 1rem;
 }
 
 

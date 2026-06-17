@@ -22,7 +22,7 @@
   left: 0;
   width: 3.5rem;
   height: 3px;
-  background: var(--color-yellow);
+  background: var(--color-green-light);
 }
 
 .production p {

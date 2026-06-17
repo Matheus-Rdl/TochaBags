@@ -16,7 +16,7 @@ export default function Bags() {
 
   return (
     <>
-      <div className={styles.bags}>
+      <div className={styles.bags} id="bags">
 
         <h1 className="font-style">Nossas <span translate="no"> Bags </span></h1>
 

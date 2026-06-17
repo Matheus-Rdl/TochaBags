@@ -34,18 +34,36 @@ export default function Footer() {
 
             <div className={styles.social_content}>
               <div>
-                <p>Facebook</p>
-                <img src="/images/facebook.png" />
+                <a
+                  href="https://www.facebook.com/Tocha66/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p>Facebook</p>
+                  <img src="/images/facebook.png" />
+                </a>
               </div>
 
               <div>
-                <p>Instagram</p>
-                <img src="/images/instagram.png" />
+                <a
+                  href="https://www.instagram.com/tochabags/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p>Instagram</p>
+                  <img src="/images/instagram.png" />
+                </a>
               </div>
 
               <div>
-                <p>WhatsApp</p>
-                <img src="/images/whatsapp.png" />
+                <a
+                  href="https://wa.me/5511948495894"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p>WhatsApp</p>
+                  <img src="/images/whatsapp.png" />
+                </a>
               </div>
             </div>
           </div>
