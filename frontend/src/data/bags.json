@@ -27,8 +27,8 @@
   },
   {
     "id": "4bd06196-eee8-4226-b64b-0165da8b42ec",
-    "title": "Bags - Percussão",
-    "type" : "percussao",
+    "title": "Bags - Cordas",
+    "type" : "cordas",
     "description": "",
     "tags": [
       "",
@@ -73,8 +73,8 @@
   },
   {
     "id": "58f537c9-e438-450c-8b7a-337a6e6ce202",
-    "title": "Bags - Diversos",
-    "type" : "diversos",
+    "title": "Bags - Cordas",
+    "type" : "cordas",
     "description": "",
     "tags": [
       "",
@@ -95,7 +95,7 @@
   {
     "id": "e51b704b-823d-438e-ac28-441c565b8fb5",
     "title": "Bags - Cavacos",
-    "type" : "diversos",
+    "type" : "cordas",
     "description": "",
     "tags": [
       "",
@@ -118,7 +118,7 @@
   {
     "id": "ff08cc45-3130-449d-a305-3c0519adb0c9",
     "title": "Bags - Cavacos",
-    "type" : "sopros",
+    "type" : "cordas",
     "description": "",
     "tags": [
       "",

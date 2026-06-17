@@ -2,10 +2,25 @@
 .dialog {
   width: 75%;
   margin-inline: 12.5%;
+  position: relative;
+}
+
+.dialog svg {
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  color: var(--color-green-dark);
+  background-color: var(--gray);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
 }
 
 .dialogBox {
-  padding: 18px;
+  padding: 8px;
   display: flex;
   position: relative;
   gap: .5rem;
@@ -31,6 +46,7 @@
   object-fit: cover;
   object-position: center;
   border-radius: 1rem;
+  margin-inline: auto;
 }
 
 .dialog .boxImgs {
@@ -59,31 +75,52 @@
 
 .dialog .boxContent {
   width: 40%;
+  margin-top: 1rem;
 }
 
-.dialog .boxContent .description, .drawer .boxContent .description {
+.dialog .boxContent .description,
+.drawer .boxContent .description {
   text-align: center;
 }
 
-.dialog .boxContent .textContent, .drawer .boxContent .textContent {
+.dialog .boxContent .textContent,
+.drawer .boxContent .textContent {
   display: flex;
   flex-direction: column;
   padding-block: 1rem;
 }
 
-.dialog .boxContent .textContent .textTags, .drawer .boxContent .textContent .textTags {
+.dialog .boxContent .textContent .textTags,
+.drawer .boxContent .textContent .textTags {
   margin-left: 1rem;
 }
 
-.dialog .boxContent .textContent .textTitle, .drawer .boxContent .textContent .textTitle {
+.dialog .boxContent .textContent .textTitle,
+.drawer .boxContent .textContent .textTitle {
   text-align: center;
 }
 
 /* DRAWER */
+
 .drawer {
   min-height: 80vh;
   overflow-y: auto;
   padding: .5rem .5rem;
+  position: relative;
+}
+
+.drawer svg {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  color: var(--color-green-dark);
+  background-color: var(--gray);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
 }
 
 .drawer .dialogTitle {

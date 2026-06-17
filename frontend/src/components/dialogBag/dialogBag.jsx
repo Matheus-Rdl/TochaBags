@@ -1,6 +1,7 @@
 import { Dialog, Drawer, useMediaQuery } from '@mui/material';
 import styles from './dialogBag.module.css'
 import { useEffect, useState } from 'react';
+import { IoIosCloseCircle, IoIosClose  } from "react-icons/io";
 
 export default function DialogBag({ open, onClose, bag }) {
 
@@ -26,6 +27,7 @@ export default function DialogBag({ open, onClose, bag }) {
         open={open}
         onClose={onClose}
       >
+        <IoIosClose onClick={onClose}/>
         <h1 className={styles.dialogTitle}>{bag.title}</h1>
         <div className={styles.boxImgContent}>
           <img className={styles.mainImg} src={mainImage} />
@@ -58,6 +60,7 @@ export default function DialogBag({ open, onClose, bag }) {
 
   return (
     <Dialog open={open} onClose={onClose} maxWidth="md" className={styles.dialog}>
+      <IoIosClose onClick={onClose}/>
       <div className={styles.dialogBox}>
 
         <div className={styles.boxImg}>
