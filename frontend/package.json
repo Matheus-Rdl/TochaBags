@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "generate-bags": "node src/scripts/generateBags.js",
-    "dev": "npm run generate-bags && vite",
-    "build": "npm run generate-bags && vite build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
