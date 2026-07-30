@@ -24,9 +24,11 @@ export default function Header() {
           </div>
 
           <div className={styles.header_content_text}>
-            <p className="font-title" translate="no">Proteção que acompanha</p>
+            {/*
+              <p className="font-title" translate="no">Proteção que acompanha</p>
+            */}
             <p className="font-style">O ritmo<br></br>da sua música</p>
-            <p className="font-text" translate="no">Soluções sob medida em bags e cases para instrumentos musicais, feitas com materiais de alta qualidade e acabamento impecável.</p>
+            <p className="font-text" translate="no">Soluções sob medida em bags, semicases e hardcases para instrumentos musicais, criadas para quem exige proteção real, durabilidade e cuidado em cada detalhe.</p>
 
             <div className={styles.header_content_btns}>
               <a

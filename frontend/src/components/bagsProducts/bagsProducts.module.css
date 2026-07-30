@@ -1,3 +1,126 @@
+.noProducts {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+  color: var(--white);
+  font-size: 18px;
+}
+
+
+.bagsFilter,
+.bagsFilterSelect {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--color-green);
+  margin-inline: 12.5%;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  margin-top: -2.7rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: 2px solid var(--color-green-light);
+  position: relative;
+  z-index: 1;
+}
+
+.bagsFilterSelect div {
+  width: 70%;
+}
+
+.bagsFilterSelect select {
+  width: 100%;
+  padding: 12px 40px 12px 16px;
+  border: 2px solid var(--color-yellow);
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bagsFilterSelect div {
+  position: relative;
+}
+
+.bagsFilterSelect select option {
+  background: var(--color-green-light);
+  color: white;
+}
+
+.bagsFilterSelect select:focus {
+  outline: none;
+  border-color: var(--color-yellow);
+}
+
+.bagsFilterSelect select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.bagsFilterSelect .selectIcon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 18px;
+  color: var(--color-yellow);
+}
+
+.filterItem {
+  cursor: pointer;
+  padding: .5rem 1rem .1rem 1rem;
+  transition: .2s;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: relative;
+  margin-top: .5rem;
+  margin-inline: .3rem;
+}
+
+.filterItem:hover {
+  background: var(--color-green-light);
+}
+
+.bagTypeActive {
+  background: var(--color-green-light);
+  scale: 1.05;
+}
+
+.bagTypeActive::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--color-yellow);
+}
+
+.bagsFilter p:not(.bagDescription p),
+.bagsFilterSelect select {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: .2rem;
+  text-transform: uppercase;
+}
+
+.bagDescription {
+  display: none;
+  margin-bottom: 1rem;
+  color: var(--white);
+  text-align: center;
+  position: absolute;
+  top: 0;
+  margin-top: 2rem;
+}
+
+.bagDescription p {
+  font-size: medium;
+}
+
 .bags_products {
   display: flex;
   overflow: auto;
@@ -62,8 +185,47 @@
   height: 1.5rem;
 }
 
+
+@media (max-width: 950px) {
+
+  .bagsFilter{
+    padding-top: 3.5rem;
+  }
+
+  .bagDescription {
+    display: block;
+  }
+}
+
+
 @media (max-width: 550px) {
   .bags_products .bags_list .bags_card div img {
     height: 10rem;
+  }
+
+  .bagsFilter,
+  .bagsFilterSelect {
+    margin-inline: 7.5%;
+  }
+
+  .bagsFilter p:not(.bagDescription p),
+  .bagsFilterSelect select {
+    font-size: .75rem;
+  }
+
+  .bagDescription {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .bagsFilterSelect {
+    padding-top: 2rem;
+  }
+
+  .bagDescription {
+    position: relative;
+    margin: 0;
+    margin-bottom: .5rem;
   }
 }
